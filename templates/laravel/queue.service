@@ -1,0 +1,16 @@
+[Unit]
+Description=Manages queue workers.
+After=php-fpm.service
+
+[Service]
+Type=simple
+ExecStartPre=setenforce 0
+ExecStart=/usr/bin/php /var/www/__APP_NAME__/artisan queue:work
+Restart=always
+User=nginx
+Group=nginx
+TimeoutSec=300
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
