@@ -36,11 +36,7 @@ Follow these simple steps to supercharge your Laravel server installation:
 
 5. **Celebrate Fast Installation:**
    Once the installation is complete, celebrate the time saved and dive straight into developing your Laravel application.
-
-## Customization
-
-Laravel Fast Install provides a range of customizable options to suit your project requirements. Edit the configuration files in the `config/` directory to tailor the installation to your needs.
-
+   
 ## Contributing
 
 If you have ideas for improvement, feel free to contribute! Fork the repository, make your changes, and submit a pull request. Together, let's make server installation for Laravel applications even faster and more efficient.
